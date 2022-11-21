@@ -1,6 +1,7 @@
-text_file = open(r"C:\Users\daniel.chancir\Desktop\Autoestudio\codember\challenge02\encrypted.txt")
-secret_message = text_file.readline()
-secret_message = secret_message.split(' ')
+# text_file = open(r"C:\Users\daniel.chancir\Desktop\Autoestudio\codember\challenge02\encrypted.txt")
+# secret_message = text_file.readline()
+# secret_message = secret_message.split(' ')
+secret_message = ['115111109111115', '108101103105111110']
 for secret_word in secret_message:
     aux_translator = ''
     translated_word = ''
