@@ -1,5 +1,5 @@
 text_file = open(r"C:\Users\daniel.chancir\Desktop\Autoestudio\codember\challenge03\colors.txt")
-colors = text_file.read()[1:-1].split(', ')
+colors = text_file.read()[1:-1].split(',')
 colors = [element.replace('\n  ', '').replace('\n', '').replace('"', '') for element in colors]
 
 '''Variables'''
